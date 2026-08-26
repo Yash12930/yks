@@ -1,4 +1,14 @@
-.vscode/
-*.exe
+cat > .gitignore <<'EOF'
+# Build output
+redis_server
+*.o
 *.out
 build/
+
+# Python
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+EOF
