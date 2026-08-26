@@ -1,4 +1,3 @@
-cat > README.md <<'EOF'
 # Mini Redis
 
 A lightweight in-memory Redis-style server implemented in C++.
